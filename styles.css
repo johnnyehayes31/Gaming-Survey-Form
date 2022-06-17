@@ -1,0 +1,46 @@
+
+body {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    font-family: Verdana;
+    }
+
+    h1 {
+        font-size: 1.5em;
+        text-align: center;
+        text-transform: capitalize;
+      }
+      form {
+        /* Just to center the form on the page */
+        margin: 0 auto;
+        width: 70%;
+        /* To see the limits of the form */
+        padding: 1em;
+        border: 1px solid #CCC;
+        border-radius: 1em;
+        text-align: center;
+        
+      }
+
+    form input[type="radio"],
+        form input[type="checkbox"] {
+            display: inline-block;
+            width: auto;
+        }
+        button {
+            background-color: #05c46b;
+            border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            font-size: 21px;
+            display: block;
+            width: 100%;
+            margin-top: 50px;
+            margin-bottom: 20px;}
+
+            #submitbutton {
+                display: flex; 
+                justify-content: center;
+              }
+              

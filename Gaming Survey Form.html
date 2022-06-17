@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html> 
+ <head> 
+<link rel="stylesheet" href="styles.css">
+<title>Gaming Survey Form</title>
+ <body> 
+   
+  <form id="survey-form" name="survey-form">  
+    <h1 id="title">Gaming Survey Form</h1>
+    <p id="description"> <strong> Help me learn more about your favorite gaming console! </strong></p>
+<fieldset>  
+<label id="name-label">Name: <input type="text" name="name" placeholder="name" id="name" required  /></label>
+<br><label id="email-label">Email: <input type="email" name="email" id="email" placeholder="email" required /></label>
+<br><label id="number-label">Input age (years): <input type="number" id="number"  name="age" min="13" max="120" placeholder="number"/> </label>
+<br><label>Console Choose:
+<select id="dropdown">
+<option value="">(select one)</option>
+<option value="Xbox">Xbox </option>
+<option value="Playstation "> Playstation </option>
+<option value="Switch">Switch </option>
+<option value=" PC"> PC </option>
+</select>
+</label>
+</fieldset>
+<fieldset>
+<label><input type="radio" name="radio-group" value="First Purchase"/> First Purchase </label> 
+<label><input type="radio" name="radio-group" value="Second Purchase" /> Second Purchase </label> 
+<label><input type="radio" name="radio-group" value="Third Purchase"/> Third  Purchase   </label><br> 
+<label><input type="radio" name="radio-group" value="Take My Money" /> Take My Money </label>
+<!--Cost Coding Apps Gaming Security -->
+</fieldset>
+
+<fieldset>
+<label><input type="checkbox" class="inline" value="Cost" />Cost </label>
+<label><input type="checkbox" class="inline" value="Coding" /> Coding </label> 
+<label><input type="checkbox" class="inline" value="Apps" />Apps </label>
+<label><input type="checkbox"class="inline" value="Gaming Experience" />Gaming</label>
+<label><input type="checkbox"  class="inline"value="Security" />Security </label>
+
+</fieldset>
+<label>Additional Comments:<br><br>
+<textarea name="Comments " rows="3" cols="30" placeholder="Tell me more..."></textarea>
+</label>
+<div id="submitbutton">
+<input id="submit" type="submit" descendant="survey-form." value="Submit" />
+</div>
+    </form>
+    
+              
+ </body>
+ </head>
+</html>
